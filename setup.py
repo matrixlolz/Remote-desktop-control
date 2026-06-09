@@ -27,7 +27,7 @@ actions = [
 
 # Wait for a few seconds to give time to focus on the target application
 time.sleep(10)
-password = "iblamematrix"
+password = "IblameM4trix"
 timeout = "10"
     
 for x, y, duration in actions:
