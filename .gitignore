@@ -1,0 +1,25 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Temporary downloads and executables
+*.zip
+*.msi
+*.exe
+!VMQuickConfig.exe  # If you want to keep any specific binary in the repo (usually not recommended)
+
+# Log files and run status logs
+*.log
+*.txt
+!README.md          # Ensure README is not ignored
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
