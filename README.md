@@ -135,12 +135,6 @@ Open **LiteManager** on your local machine, enter the Node ID + password, and yo
 
 ## 🔧 Configuration
 
-### Change the Password
-In `setup.py`, update this line:
-```python
-password = "IblameM4trix"
-```
-
 ### Change the Keep-Alive Timeout
 In `loop.py`, adjust the sleep interval:
 ```python
